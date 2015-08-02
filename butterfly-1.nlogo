@@ -4,11 +4,11 @@ patches-own [ elevation ]
 
 turtles-own []
 
-to setup
+to setup ; a button defined through interface
    ca
    ask patches
      [
-       let elev1 100 - distancexy 30 30
+       let elev1 100 - distancexy 30 30 
        let elev2 50  - distancexy 120 100
        
        ifelse elev1 > elev2 
